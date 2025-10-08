@@ -133,11 +133,11 @@ export function ChatContainer() {
                 </div>
               </div>
 
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 mb-8 max-w-md border border-white/30">
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-8 max-w-sm border border-white/30">
                 <div className="text-white">
                   <div className="text-sm mb-2">PAY</div>
                   <div className="text-6xl lg:text-7xl font-bold leading-none">
-                    10%<span className="text-2xl">only</span>
+                    10%<span className="text-2xl"></span>
                   </div>
                   <div className="text-sm mt-2">PER MONTH</div>
                 </div>
