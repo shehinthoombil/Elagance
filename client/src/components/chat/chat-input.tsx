@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 interface ChatInputProps {
   onSendMessage: (message: string) => void;
   isLoading: boolean;
+  className?: string;
 }
 
 export function ChatInput({ onSendMessage, isLoading }: ChatInputProps) {
