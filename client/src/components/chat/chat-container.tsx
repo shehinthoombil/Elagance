@@ -331,7 +331,7 @@ export function ChatContainer() {
         </div>
       </footer>
       {/* Chat Input */}
-      <ChatInput onSendMessage={sendMessage} isLoading={isLoading} className="max-w-full px-2 sm:px-6" />
+      <ChatInput onSendMessage={sendMessage} isLoading={isLoading} className="max-w-full px-2 sm:px-6" /> 
     </div >
   );
 } 
